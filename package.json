@@ -1,0 +1,33 @@
+{
+  "name": "flight-showcase-template",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "node scripts/serve.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check:public": "node scripts/check-public.mjs",
+    "test:e2e": "playwright test",
+    "assets:posters": "node scripts/render-posters.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "1.23.0",
+    "next": "16.2.10",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "three": "0.185.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.0",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.10",
+    "typescript": "5.9.3",
+    "sharp": "0.34.5"
+  }
+}
